@@ -1,12 +1,12 @@
 {
-  "name": "newerton/yii2-boleto-remessa",
-  "description": "Biblioteca com boletos e sistema de remessa e retorno para o Yii2 Framework",
+  "name": "brenoleite8/yii2-boleto-remessa",
+  "description": "Biblioteca com boletos e sistema de remessa e retorno para o Yii2 Framework (Fork from newerton/yii2-boleto-remessa)",
   "keywords": [
     "newerton",
     "yii2",
     "yii2-boleto-remessa"
   ],
-  "homepage": "https://github.com/newerton/yii2-boleto-remessa",
+  "homepage": "https://github.com/brenoleite8/yii2-boleto-remessa",
   "license": "MIT",
   "authors": [
     {
@@ -16,7 +16,6 @@
   ],
   "require": {
     "php": ">=5.6.0",
-    "setasign/fpdf": "^1.7",
     "nesbot/carbon": "^2.32"
   },
   "require-dev": {
