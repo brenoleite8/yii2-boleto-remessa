@@ -15,6 +15,7 @@
     }
   ],
   "require": {
+    "newerton/yii2-boleto-remessa": "dev-fpdf"
     "php": ">=5.6.0",
     "nesbot/carbon": "^2.32"
   },
@@ -31,4 +32,10 @@
       "Newerton\\Yii2Boleto\\Tests\\": "tests"
     }
   }
+  "repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/brenoleite8/yii2-boleto-remessa"
+    }
+  ], 
 }
