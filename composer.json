@@ -31,4 +31,6 @@
       "Newerton\\Yii2Boleto\\Tests\\": "tests"
     }
   }
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
