@@ -1,13 +1,34 @@
 {
   "name": "brenoleite8/yii2-boleto-remessa",
-  "description": "Fork do yii2-boleto-remessa sem a dependência do fpdf",
+  "description": "Biblioteca com boletos e sistema de remessa e retorno para o Yii2 Framework (Fork from newerton/yii2-boleto-remessa)",
+  "keywords": [
+    "newerton",
+    "yii2",
+    "yii2-boleto-remessa"
+  ],
+  "homepage": "https://github.com/brenoleite8/yii2-boleto-remessa",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Newerton Vargas de Araujo",
+      "email": "newerton.araujo@gmail.com"
+    }
+  ],
   "require": {
     "php": ">=5.6.0",
     "nesbot/carbon": "^2.32"
   },
+  "require-dev": {
+    "phpunit/phpunit": "~5.0"
+  },
   "autoload": {
     "psr-4": {
       "Newerton\\Yii2Boleto\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Newerton\\Yii2Boleto\\Tests\\": "tests"
     }
   }
 }
